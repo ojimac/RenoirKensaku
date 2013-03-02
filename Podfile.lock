@@ -1,0 +1,14 @@
+
+PODS:
+- Google-Maps-iOS-SDK (1.1.0)
+- GoogleAnalytics-iOS-SDK (2.0beta4)
+
+DEPENDENCIES:
+- Google-Maps-iOS-SDK
+- GoogleAnalytics-iOS-SDK
+
+SPEC CHECKSUMS:
+  Google-Maps-iOS-SDK: bc3b2460b91dc8897c6bb6440bf162beddf31dc8
+  GoogleAnalytics-iOS-SDK: 11332eedcffb0c88b2dd9bff0ac1444e3a85e890
+
+COCOAPODS: 0.16.4
