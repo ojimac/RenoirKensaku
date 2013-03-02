@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0D647CCB16E20A6700C22EF6 /* REAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D647CC916E20A6700C22EF6 /* REAppDelegate.m */; };
+		0D647CD016E20E7E00C22EF6 /* REBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D647CCF16E20E7E00C22EF6 /* REBaseController.m */; };
 		0DF6475716E207A800711B26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF6475616E207A800711B26 /* UIKit.framework */; };
 		0DF6475916E207A800711B26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF6475816E207A800711B26 /* Foundation.framework */; };
 		0DF6475B16E207A800711B26 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF6475A16E207A800711B26 /* CoreGraphics.framework */; };
@@ -28,6 +29,8 @@
 		0D647CCA16E20A6700C22EF6 /* REAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REAppDelegate.h; sourceTree = "<group>"; };
 		0D647CCC16E20BF000C22EF6 /* REAppConstantsPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REAppConstantsPrivate.h; sourceTree = "<group>"; };
 		0D647CCD16E20C0000C22EF6 /* REAppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REAppConstants.h; sourceTree = "<group>"; };
+		0D647CCE16E20E7E00C22EF6 /* REBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REBaseController.h; sourceTree = "<group>"; };
+		0D647CCF16E20E7E00C22EF6 /* REBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REBaseController.m; sourceTree = "<group>"; };
 		0DF6475316E207A800711B26 /* RenoirKensaku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RenoirKensaku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DF6475616E207A800711B26 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0DF6475816E207A800711B26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -149,6 +152,8 @@
 			children = (
 				0DF6477D16E2096900711B26 /* REViewController.h */,
 				0DF6477E16E2096900711B26 /* REViewController.m */,
+				0D647CCE16E20E7E00C22EF6 /* REBaseController.h */,
+				0D647CCF16E20E7E00C22EF6 /* REBaseController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -271,6 +276,7 @@
 				0DF6476316E207A800711B26 /* main.m in Sources */,
 				0DF6478316E2096900711B26 /* REViewController.m in Sources */,
 				0D647CCB16E20A6700C22EF6 /* REAppDelegate.m in Sources */,
+				0D647CD016E20E7E00C22EF6 /* REBaseController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

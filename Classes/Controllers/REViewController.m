@@ -8,6 +8,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    self.trackedViewName = @"test";
+
     GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:-33.8683
                                                             longitude:151.2086
                                                                  zoom:6];

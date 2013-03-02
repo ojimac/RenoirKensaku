@@ -1,7 +1,10 @@
+// Controller
+#import "REBaseController.h"
+
 // Pods
 #import "GoogleMaps.h"
 
-@interface REViewController : UIViewController
+@interface REViewController : REBaseController
 
 @property (strong, nonatomic) GMSMapView *mapView;
 
