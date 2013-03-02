@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D647CCB16E20A6700C22EF6 /* REAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D647CC916E20A6700C22EF6 /* REAppDelegate.m */; };
+		0DF6475716E207A800711B26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF6475616E207A800711B26 /* UIKit.framework */; };
+		0DF6475916E207A800711B26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF6475816E207A800711B26 /* Foundation.framework */; };
+		0DF6475B16E207A800711B26 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DF6475A16E207A800711B26 /* CoreGraphics.framework */; };
+		0DF6476116E207A800711B26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0DF6475F16E207A800711B26 /* InfoPlist.strings */; };
+		0DF6476316E207A800711B26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF6476216E207A800711B26 /* main.m */; };
+		0DF6477016E207A800711B26 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DF6476E16E207A800711B26 /* MainStoryboard.storyboard */; };
+		0DF6478316E2096900711B26 /* REViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF6477E16E2096900711B26 /* REViewController.m */; };
+		0DF6478B16E2098200711B26 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DF6478616E2098200711B26 /* Default-568h@2x.png */; };
+		0DF6478C16E2098200711B26 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DF6478716E2098200711B26 /* Default.png */; };
+		0DF6478D16E2098200711B26 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DF6478816E2098200711B26 /* Default@2x.png */; };
+		0DF6479616E209D800711B26 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DF6479416E209D800711B26 /* appicon.png */; };
+		0DF6479716E209D800711B26 /* appicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DF6479516E209D800711B26 /* appicon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D647CC916E20A6700C22EF6 /* REAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REAppDelegate.m; sourceTree = "<group>"; };
+		0D647CCA16E20A6700C22EF6 /* REAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REAppDelegate.h; sourceTree = "<group>"; };
+		0DF6475316E207A800711B26 /* RenoirKensaku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RenoirKensaku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DF6475616E207A800711B26 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0DF6475816E207A800711B26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0DF6475A16E207A800711B26 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0DF6475E16E207A800711B26 /* RenoirKensaku-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RenoirKensaku-Info.plist"; sourceTree = "<group>"; };
+		0DF6476016E207A800711B26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0DF6476216E207A800711B26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0DF6476416E207A800711B26 /* RenoirKensaku-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RenoirKensaku-Prefix.pch"; sourceTree = "<group>"; };
+		0DF6476F16E207A800711B26 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0DF6477D16E2096900711B26 /* REViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REViewController.h; sourceTree = "<group>"; };
+		0DF6477E16E2096900711B26 /* REViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REViewController.m; sourceTree = "<group>"; };
+		0DF6478616E2098200711B26 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0DF6478716E2098200711B26 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0DF6478816E2098200711B26 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0DF6479416E209D800711B26 /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
+		0DF6479516E209D800711B26 /* appicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appicon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DF6475016E207A800711B26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF6475716E207A800711B26 /* UIKit.framework in Frameworks */,
+				0DF6475916E207A800711B26 /* Foundation.framework in Frameworks */,
+				0DF6475B16E207A800711B26 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DF6474A16E207A800711B26 = {
+			isa = PBXGroup;
+			children = (
+				0DF6475C16E207A800711B26 /* RenoirKensaku */,
+				0DF6475516E207A800711B26 /* Frameworks */,
+				0DF6475416E207A800711B26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DF6475416E207A800711B26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DF6475316E207A800711B26 /* RenoirKensaku.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DF6475516E207A800711B26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DF6475616E207A800711B26 /* UIKit.framework */,
+				0DF6475816E207A800711B26 /* Foundation.framework */,
+				0DF6475A16E207A800711B26 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0DF6475C16E207A800711B26 /* RenoirKensaku */ = {
+			isa = PBXGroup;
+			children = (
+				0D647CC916E20A6700C22EF6 /* REAppDelegate.m */,
+				0D647CCA16E20A6700C22EF6 /* REAppDelegate.h */,
+				0DF6476E16E207A800711B26 /* MainStoryboard.storyboard */,
+				0DF6477A16E2092200711B26 /* Assets */,
+				0DF6477916E2091200711B26 /* Classes */,
+				0DF6475D16E207A800711B26 /* Supporting Files */,
+			);
+			path = RenoirKensaku;
+			sourceTree = "<group>";
+		};
+		0DF6475D16E207A800711B26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DF6475E16E207A800711B26 /* RenoirKensaku-Info.plist */,
+				0DF6475F16E207A800711B26 /* InfoPlist.strings */,
+				0DF6476216E207A800711B26 /* main.m */,
+				0DF6476416E207A800711B26 /* RenoirKensaku-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0DF6477916E2091200711B26 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0DF6477C16E2096900711B26 /* Controllers */,
+				0DF6477F16E2096900711B26 /* Extensions */,
+				0DF6478016E2096900711B26 /* Helpers */,
+				0DF6478116E2096900711B26 /* Models */,
+				0DF6478216E2096900711B26 /* Views */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		0DF6477A16E2092200711B26 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0DF6479416E209D800711B26 /* appicon.png */,
+				0DF6479516E209D800711B26 /* appicon@2x.png */,
+				0DF6478616E2098200711B26 /* Default-568h@2x.png */,
+				0DF6478716E2098200711B26 /* Default.png */,
+				0DF6478816E2098200711B26 /* Default@2x.png */,
+			);
+			name = Assets;
+			path = ../Assets;
+			sourceTree = "<group>";
+		};
+		0DF6477C16E2096900711B26 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0DF6477D16E2096900711B26 /* REViewController.h */,
+				0DF6477E16E2096900711B26 /* REViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0DF6477F16E2096900711B26 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0DF6478016E2096900711B26 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0DF6478116E2096900711B26 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0DF6478216E2096900711B26 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DF6475216E207A800711B26 /* RenoirKensaku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DF6477616E207A800711B26 /* Build configuration list for PBXNativeTarget "RenoirKensaku" */;
+			buildPhases = (
+				0DF6474F16E207A800711B26 /* Sources */,
+				0DF6475016E207A800711B26 /* Frameworks */,
+				0DF6475116E207A800711B26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RenoirKensaku;
+			productName = RenoirKensaku;
+			productReference = 0DF6475316E207A800711B26 /* RenoirKensaku.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DF6474B16E207A800711B26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RE;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ojimac;
+			};
+			buildConfigurationList = 0DF6474E16E207A800711B26 /* Build configuration list for PBXProject "RenoirKensaku" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0DF6474A16E207A800711B26;
+			productRefGroup = 0DF6475416E207A800711B26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DF6475216E207A800711B26 /* RenoirKensaku */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DF6475116E207A800711B26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF6476116E207A800711B26 /* InfoPlist.strings in Resources */,
+				0DF6477016E207A800711B26 /* MainStoryboard.storyboard in Resources */,
+				0DF6478B16E2098200711B26 /* Default-568h@2x.png in Resources */,
+				0DF6478C16E2098200711B26 /* Default.png in Resources */,
+				0DF6478D16E2098200711B26 /* Default@2x.png in Resources */,
+				0DF6479616E209D800711B26 /* appicon.png in Resources */,
+				0DF6479716E209D800711B26 /* appicon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DF6474F16E207A800711B26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF6476316E207A800711B26 /* main.m in Sources */,
+				0DF6478316E2096900711B26 /* REViewController.m in Sources */,
+				0D647CCB16E20A6700C22EF6 /* REAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0DF6475F16E207A800711B26 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DF6476016E207A800711B26 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0DF6476E16E207A800711B26 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DF6476F16E207A800711B26 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DF6477416E207A800711B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0DF6477516E207A800711B26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DF6477716E207A800711B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RenoirKensaku/RenoirKensaku-Prefix.pch";
+				INFOPLIST_FILE = "RenoirKensaku/RenoirKensaku-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0DF6477816E207A800711B26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RenoirKensaku/RenoirKensaku-Prefix.pch";
+				INFOPLIST_FILE = "RenoirKensaku/RenoirKensaku-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DF6474E16E207A800711B26 /* Build configuration list for PBXProject "RenoirKensaku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DF6477416E207A800711B26 /* Debug */,
+				0DF6477516E207A800711B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DF6477616E207A800711B26 /* Build configuration list for PBXNativeTarget "RenoirKensaku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DF6477716E207A800711B26 /* Debug */,
+				0DF6477816E207A800711B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DF6474B16E207A800711B26 /* Project object */;
+}
